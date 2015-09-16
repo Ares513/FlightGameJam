@@ -1,0 +1,229 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+XNAPewPewPew
+</name>
+</assembly>
+<members>
+<member name="T:XNA_Pew_Pew_Pew.SimpleEntity">
+	<summary>
+ Basic class that defines only the position, velocity, etc of an entity.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.Game1.Initialize">
+	<summary>
+ Allows the game to perform any initialization it needs to before starting to run.
+ This is where it can query for any required services and load any non-graphic
+ related content.  Calling MyBase.Initialize will enumerate through any components
+ and initialize them as well.
+ </summary>
+</member><member name="M:XNA_Pew_Pew_Pew.Game1.LoadContent">
+	<summary>
+ LoadContent will be called once per game and is the place to load
+ all of your content.
+ </summary>
+</member><member name="M:XNA_Pew_Pew_Pew.Game1.UnloadContent">
+	<summary>
+ UnloadContent will be called once per game and is the place to unload
+ all content.
+ </summary>
+</member><member name="M:XNA_Pew_Pew_Pew.Game1.Update(Microsoft.Xna.Framework.GameTime)">
+	<summary>
+ Allows the game to run logic such as updating the world,
+ checking for collisions, gathering input, and playing audio.
+ </summary>
+	<param name="gameTime">Provides a snapshot of timing values.</param>
+</member><member name="M:XNA_Pew_Pew_Pew.Game1.Draw(Microsoft.Xna.Framework.GameTime)">
+	<summary>
+ This is called when the game should draw itself.
+ </summary>
+	<param name="gameTime">Provides a snapshot of timing values.</param>
+</member><member name="T:XNA_Pew_Pew_Pew.Game1">
+	<summary>
+ This is the main type for your game
+ </summary>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Graphics.Texture2D,XNA_Pew_Pew_Pew.Size,Microsoft.Xna.Framework.Vector2)">
+	<summary>
+ Creates a new CCG.ProgressBar instance.
+ </summary>
+	<param name="initEmptyTexture">The texture of the progress bar when completely empty.</param>
+	<param name="initFullTexture">The texture when completely full. Will overlay onto the other texture.</param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.Increment(System.Int32)">
+	<summary>
+ Increments the progressBar by a specific amount.
+ </summary>
+	<param name="amount">The amount to increase the progress bar by. Use gameTime.ElapsedTime.Miliseconds for a timer.</param>
+	<remarks>Will raise ProgressBarCompleted when the progres bar is full.</remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.SetPercentage(System.Double)">
+	<summary>
+ A value between zero and one that describes the percentage.
+ </summary>
+	<param name="inPercentage">Between 0 or 1</param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.Halt">
+	<summary>
+ Stops the progress bar and raises an event for its completion.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.Reset(System.Int32,System.Int32)">
+	<summary>
+ Restarts the timer with the specified minimum and maximum values.
+ </summary>
+	<param name="minimum"></param>
+	<param name="maximum"></param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.ProgressBar.Draw(Microsoft.Xna.Framework.Graphics.SpriteBatch,System.Boolean,Microsoft.Xna.Framework.Input.MouseState)">
+	<summary>
+ Draws the progress bar based on the current minimum and maximum values.
+ </summary>
+	<param name="sb">SpriteBatch instance</param>
+	<param name="drawEmpty">Whether or not to draw the underlying empty ProgressBar texture.</param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.WeaponDefinition.SetSpeed(System.Single)">
+	<summary>
+ Allows only the weapon subclass to set the speed of the projectile after instantiation.
+ </summary>
+	<param name="value"></param>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.Speed">
+	<summary>
+ Represents how fast the projectile travels along the screen.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.Type">
+	<summary>
+ Represents the weapon type. Once set it shouldn't be adjusted. It determines how the weapon behaves in combat, and though the WeaponBehavior interface handles what actually happens, this is a good marker.
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.Damage">
+	<summary>
+ The amount of damage, before armor processing that the weapon does. the 'base' damage if you will.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.AttackSpeed">
+	<summary>
+ The delay, in milliseconds in between each attack.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.Magazine">
+	<summary>
+ The size of the magazine.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.Reload">
+	<summary>
+ The time it takes to reload, in milliseconds.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.DamageModifiers">
+	<summary>
+ Reflects the different types this weapon is or isn't effective against. If null, then this weapon does full damage to all enemies.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.WeaponDefinition.AP">
+	<summary>
+ Reflects the amount of armor this weapon will ignore each time it hits a target. Armor penetration does not increase damage, merely ignores some portion of the armor.
+ That is to say, a target with 5 armor, a weapon with 2 AP and 20 damage would do 17 damage; the target behaves as if it has 3 armor instead of 5. 
+ Armor penetration cannot reduce the armor below zero.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XNA_Pew_Pew_Pew.DamageAdjustment">
+	<summary>
+ Represents a single damage adjustment for a single weapon. If the Percentage value isn't zero, it is proceessed first followed by the 'amount' or flat amount.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:XNA_Pew_Pew_Pew.DamageCalculator">
+	<summary>
+ Manages processing of how different types of enemies take damage.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:XNA_Pew_Pew_Pew.Animation.NoFacingRollingDraw">
+	<summary>
+ Indicates that an image has no facing values and should instead be read row to row.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.Animation.PlayAnimationOnce(System.String,System.Boolean,XNA_Pew_Pew_Pew.AnimationRevertState)">
+	<summary>
+ Plays an animation once.
+ </summary>
+	<param name="animationToPlay">The String value of the animation you intend to play.</param>
+	<param name="AllowRepetitivePlay">Whether or not to play the animation again if the current animation is already playing.</param>
+	<param name="StartNewAnimWhenDone">When the animation finishes, instead of switching animations or restarting, it pauses.</param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.Animation.Draw(Microsoft.Xna.Framework.Graphics.SpriteBatch,Microsoft.Xna.Framework.Rectangle,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,Microsoft.Xna.Framework.Color)">
+	<summary>
+ Draws the current frame of the animation.
+ </summary>
+	<param name="sb">SpriteBatch</param>
+	<param name="LocationAndSize">Rectangle indicating where in screen space to draw the image.</param>
+	<param name="layerDepth">The ScaleLayer. See Cam.ScaleLayer.</param>
+	<param name="overrideColor">Optional parameter to override the color property. By default, uses the color already specified by the class.</param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.Program.Main(System.String[])">
+	<summary>
+ The main entry point for the application.
+ </summary>
+</member><member name="M:XNA_Pew_Pew_Pew.HostileEntity.SetHealth(System.Single)">
+	<summary>
+ Sets the health, allowing only values within bounds.
+ </summary>
+	<param name="value"></param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.HostileEntity.SetMaxHealth(System.Single)">
+	<summary>
+ Sets the max health to any value.
+ </summary>
+	<param name="value"></param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.HostileEntity.AdditionalInit(Microsoft.Xna.Framework.Vector2,XNA_Pew_Pew_Pew.Size)">
+	<summary>
+ Because the aspects of the two overloaded subs differ in only a handful of aspects, they change those
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.Projectile.CalculateRotation">
+	<summary>
+ Assumes all image artifacts face directly to the right, calculates the proper facing given a target.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.WeaponBase.Fire(XNA_Pew_Pew_Pew.Game1,Microsoft.Xna.Framework.Graphics.SpriteBatch,Microsoft.Xna.Framework.GameTime,Microsoft.Xna.Framework.Input.MouseState,Microsoft.Xna.Framework.Input.KeyboardState,XNA_Pew_Pew_Pew.ProjectileManager,XNA_Pew_Pew_Pew.WeaponManager)">
+	<summary>
+ Fire occurs under the assumption that firing is allowed.
+ </summary>
+	<param name="g"></param>
+	<param name="sb"></param>
+	<param name="gt"></param>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.WeaponBase.CheckReload">
+	<summary>
+ CheckReload should be called at the end of every fire sequence.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:XNA_Pew_Pew_Pew.IWeaponBehavior.Fire(XNA_Pew_Pew_Pew.Game1,Microsoft.Xna.Framework.Graphics.SpriteBatch,Microsoft.Xna.Framework.GameTime,Microsoft.Xna.Framework.Input.MouseState,Microsoft.Xna.Framework.Input.KeyboardState,XNA_Pew_Pew_Pew.ProjectileManager,XNA_Pew_Pew_Pew.WeaponManager)">
+	<summary>
+ This describes what the weapon actually does. More params will be added as more data becomes available.
+ </summary>
+	<param name="g"></param>
+	<remarks></remarks>
+</member><member name="T:XNA_Pew_Pew_Pew.WeaponSelector">
+	<summary>
+ UI class that shows which weapon is currently selected.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>progressBar.png</Source>
+      <Name>progressBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\progressBar.xnb</Output>
+      <Time>2015-03-07T20:26:08.4051084-05:00</Time>
+    </Item>
+    <Item>
+      <Source>progressBarFull.png</Source>
+      <Name>progressBarFull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\progressBarFull.xnb</Output>
+      <Time>2015-03-07T20:26:20.6931273-05:00</Time>
+    </Item>
+    <Item>
+      <Source>DefaultFont.spritefont</Source>
+      <Name>DefaultFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\DefaultFont.xnb</Output>
+      <Time>2015-03-07T20:28:20.0678994-05:00</Time>
+    </Item>
+    <Item>
+      <Source>cursorBase.png</Source>
+      <Name>cursorBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\cursorBase.xnb</Output>
+      <Time>2015-03-07T21:14:12.8984772-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fireball_2.png</Source>
+      <Name>fireball_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\fireball_2.xnb</Output>
+      <Time>2015-03-07T23:44:44.4434129-05:00</Time>
+    </Item>
+    <Item>
+      <Source>firebolt.png</Source>
+      <Name>firebolt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firebolt.xnb</Output>
+      <Time>2015-03-07T23:44:44.4464131-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fireburst.png</Source>
+      <Name>fireburst</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\fireburst.xnb</Output>
+      <Time>2015-03-07T23:44:44.4504133-05:00</Time>
+    </Item>
+    <Item>
+      <Source>firecircle.png</Source>
+      <Name>firecircle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firecircle.xnb</Output>
+      <Time>2015-03-07T23:44:44.4524134-05:00</Time>
+    </Item>
+    <Item>
+      <Source>firepits.png</Source>
+      <Name>firepits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firepits.xnb</Output>
+      <Time>2015-03-07T23:44:44.4554136-05:00</Time>
+    </Item>
+    <Item>
+      <Source>firestream.png</Source>
+      <Name>firestream</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firestream.xnb</Output>
+      <Time>2015-03-07T23:44:44.4594138-05:00</Time>
+    </Item>
+    <Item>
+      <Source>firewall.png</Source>
+      <Name>firewall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firewall.xnb</Output>
+      <Time>2015-03-07T23:44:44.463414-05:00</Time>
+    </Item>
+    <Item>
+      <Source>flaming-mantle.png</Source>
+      <Name>flaming-mantle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\flaming-mantle.xnb</Output>
+      <Time>2015-03-07T23:44:44.4664142-05:00</Time>
+    </Item>
+    <Item>
+      <Source>forked-lightning.png</Source>
+      <Name>forked-lightning</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\forked-lightning.xnb</Output>
+      <Time>2015-03-07T23:44:44.4704144-05:00</Time>
+    </Item>
+    <Item>
+      <Source>LockedSkill.png</Source>
+      <Name>LockedSkill</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\LockedSkill.xnb</Output>
+      <Time>2015-03-07T23:44:44.4744147-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ThunderSlamButton.png</Source>
+      <Name>ThunderSlamButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\ThunderSlamButton.xnb</Output>
+      <Time>2015-03-07T23:44:44.4784149-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SpellBoxEmpty.png</Source>
+      <Name>SpellBoxEmpty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\SpellBoxEmpty.xnb</Output>
+      <Time>2015-03-07T23:49:59.6984444-05:00</Time>
+    </Item>
+    <Item>
+      <Source>orbFull.png</Source>
+      <Name>orbFull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\orbFull.xnb</Output>
+      <Time>2015-03-08T00:28:35.4533826-05:00</Time>
+    </Item>
+    <Item>
+      <Source>bullets.png</Source>
+      <Name>bullets</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">0, 0, 0, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\bullets.xnb</Output>
+      <Time>2015-03-16T12:32:14.7606435-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{94A63D78-01CB-4D19-ABF8-36153B7E106E}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew PewContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-28T14:24:49.6723228-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

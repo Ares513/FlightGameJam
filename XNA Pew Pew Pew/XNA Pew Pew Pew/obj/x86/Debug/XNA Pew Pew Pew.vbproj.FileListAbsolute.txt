@@ -1,0 +1,25 @@
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\XNA Pew Pew Pew.exe
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\XNA Pew Pew Pew.pdb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\XNA Pew Pew Pew.xml
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\obj\x86\Debug\XNA Pew Pew Pew.exe
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\obj\x86\Debug\XNA Pew Pew Pew.xml
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\obj\x86\Debug\XNA Pew Pew Pew.pdb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\progressBar.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\progressBarFull.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\DefaultFont.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\cursorBase.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\fireball_2.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firebolt.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\fireburst.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firecircle.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firepits.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firestream.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\firewall.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\flaming-mantle.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\forked-lightning.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\LockedSkill.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\ThunderSlamButton.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\SpellBoxEmpty.xnb
+c:\users\evan king\documents\visual studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\orbFull.xnb
+C:\Users\Evan King\Documents\Visual Studio 2012\Projects\XNA Pew Pew Pew\XNA Pew Pew Pew\bin\x86\Debug\Content\bullets.xnb
